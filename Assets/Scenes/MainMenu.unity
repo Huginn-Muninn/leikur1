@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cubert
+  m_Text: Cuberts
 --- !u!222 &146646020
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -539,7 +539,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WELCOME TO
+  m_Text: Velkominn til
 --- !u!222 &632247254
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -826,7 +826,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: QUIT
+  m_Text: "H\xE6tta"
 --- !u!222 &1406884700
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -527,7 +527,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Thanks for playing!
+  m_Text: "Takk fyrir a\xF0 spila leikinn!"
 --- !u!222 &632247254
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -814,7 +814,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: QUIT
+  m_Text: "H\xE6tta"
 --- !u!222 &1406884700
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -957,7 +957,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Made by:'
+  m_Text: 'Gert af:'
 --- !u!222 &1753066315
 CanvasRenderer:
   m_ObjectHideFlags: 0

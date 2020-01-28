@@ -284,7 +284,7 @@ Transform:
   m_LocalScale: {x: 17, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &402545899
 GameObject:
@@ -324,8 +324,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -402,16 +400,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
-        type: 3}
-      propertyPath: m_Name
-      value: Obstacle
-      objectReference: {fileID: 0}
-    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacle
-      objectReference: {fileID: 0}
     - target: {fileID: 54380055921653094, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
       propertyPath: m_Mass
@@ -421,6 +409,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_Name
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
@@ -435,7 +433,7 @@ PrefabInstance:
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.55
+      value: 33.8
       objectReference: {fileID: 0}
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
@@ -460,7 +458,7 @@ PrefabInstance:
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
@@ -565,7 +563,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &534669906
 MonoBehaviour:
@@ -588,16 +586,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
-        type: 3}
-      propertyPath: m_Name
-      value: Obstacle (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacle
-      objectReference: {fileID: 0}
     - target: {fileID: 54380055921653094, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
       propertyPath: m_Mass
@@ -607,6 +595,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_Name
+      value: Obstacle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
@@ -716,6 +714,95 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &727586555
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 54380055921653094, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_Mass
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 54380055921653094, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_Name
+      value: Obstacle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 41.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f0cd0d1649cb6e64d854c21fc04eb360, type: 3}
 --- !u!1001 &890600617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -840,8 +927,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
@@ -855,7 +940,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Failed
+  m_Text: "Mist\xF3kst"
 --- !u!222 &933246348
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -920,8 +1005,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 80
@@ -1107,8 +1190,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
@@ -1319,16 +1400,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
-        type: 3}
-      propertyPath: m_Name
-      value: Obstacle (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacle
-      objectReference: {fileID: 0}
     - target: {fileID: 54380055921653094, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
       propertyPath: m_Mass
@@ -1338,6 +1409,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_Name
+      value: Obstacle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
@@ -1352,7 +1433,7 @@ PrefabInstance:
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.55
+      value: 15.6
       objectReference: {fileID: 0}
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
@@ -1377,7 +1458,7 @@ PrefabInstance:
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
@@ -1456,8 +1537,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
@@ -1471,7 +1550,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level
+  m_Text: "Bor\xF0"
 --- !u!222 &1777090657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1535,8 +1614,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
@@ -1550,7 +1627,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level
+  m_Text: "Bor\xF0 "
 --- !u!222 &1830917172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1620,8 +1697,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
@@ -1635,7 +1710,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Complete
+  m_Text: "Kl\xE1ra\xF0"
 --- !u!222 &1937846551
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1651,16 +1726,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
-        type: 3}
-      propertyPath: m_Name
-      value: Obstacle (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
-        type: 3}
-      propertyPath: m_TagString
-      value: Obstacle
-      objectReference: {fileID: 0}
     - target: {fileID: 54380055921653094, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
       propertyPath: m_Mass
@@ -1670,6 +1735,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_Name
+      value: Obstacle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634530414586001932, guid: f0cd0d1649cb6e64d854c21fc04eb360,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
@@ -1684,7 +1759,7 @@ PrefabInstance:
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 55.4
+      value: 68.3
       objectReference: {fileID: 0}
     - target: {fileID: 4787918782839153975, guid: f0cd0d1649cb6e64d854c21fc04eb360,
         type: 3}
