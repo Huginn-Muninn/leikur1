@@ -5,12 +5,12 @@ public class PlayerCollision : MonoBehaviour
 
     public PlayerMovement movement;
 
-    void OnCollisionEnter(Collision collisionInfo)
+    void OnCollisionEnter(Collision collisionInfo)//kíkir hvort að þú sért að snerta eitthvað
     {
-        if (collisionInfo.collider.tag == "Obstacle")
+        if (collisionInfo.collider.tag == "Obstacle")//ef þú klessir á hindrun
         {
-            movement.enabled = false;
-            FindObjectOfType<GameManager>().EndGame();
+            movement.enabled = false;//stoppar þig frá því að hreyfa þig
+            FindObjectOfType<GameManager>().EndGame();//kallar á Endgame
         }
     }
 

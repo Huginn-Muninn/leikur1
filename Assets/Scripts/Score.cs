@@ -3,11 +3,10 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
 
-    public Transform player;
-    public Text scoreText;
-    // Update is called once per frame
+    public Transform player;//spilari
+    public Text scoreText;//texti
     void Update()
     {
-        scoreText.text = player.position.z.ToString("0");
+        scoreText.text = player.position.z.ToString("0");//bætir við score þegar spilari færir sig áfram
     }
 }

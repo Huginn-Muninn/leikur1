@@ -4,9 +4,9 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
-    bool gameHasEnded = false;
+    bool gameHasEnded = false;//Leikurinn er í gangi á meðan þetta er false
 
-    public float restartDelay = 0.2f;
+    public float restartDelay = 0.2f;// Hversu langur tími mun líða frá því að þú tapaðir þangað til að leikurinn endurræsir sig
 
     public GameObject completeLevelUI;
 
@@ -14,28 +14,27 @@ public class GameManager : MonoBehaviour
 
     public void CompleteLevel()
     {
-        completeLevelUI.SetActive(true);
+        completeLevelUI.SetActive(true);//Setur  texta yfir skjáinn þegar þú vinnur
     }
 
     public void FailedLevel()
     {
-        failedLevelUI.SetActive(true);
+        failedLevelUI.SetActive(true);// sama og fyrir ofan nema þegar þú tapar
     }
 
     public void EndGame ()
     {
         if (gameHasEnded == false)
         {
-            gameHasEnded = true;
-            Debug.Log("GAME OVER");
-            // Restart Game
+            gameHasEnded = true;//Leikinum hefur verið kláraður
+            Debug.Log("GAME OVER");//Skrifar GAME OVER í console
             FailedLevel();
-            Invoke("Restart", restartDelay);
+            Invoke("Restart", restartDelay);//Endurræsir leikinn
         }
     }
 
     void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);//endurræsir sceneið
     }
 }

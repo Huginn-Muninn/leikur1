@@ -826,7 +826,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "H\xE6tta"
+  m_Text: Byrja
 --- !u!222 &1406884700
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -3,10 +3,10 @@
 public class EnsTrigger : MonoBehaviour
 {
 
-    public GameManager gameManager;
+    public GameManager gameManager;//gerir þetta opinbert
 
-    void OnTriggerEnter()
+    void OnTriggerEnter()//Þegar þú hittir trigger
     {
-        gameManager.CompleteLevel();
+        gameManager.CompleteLevel();//Notar skriptuna Completelevel
     }
 }
